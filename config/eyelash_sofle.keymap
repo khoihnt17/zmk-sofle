@@ -106,10 +106,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans           &trans       &trans    &trans                &trans         &trans  &trans     &trans                 &trans           &trans          &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR            &kp PERCENT    &trans  &kp CARET  &kp AMPERSAND          &kp ASTERISK     &trans          &trans  &trans
-&trans  &trans           &trans       &kp LBRC  &kp LEFT_PARENTHESIS  &kp LBKT       &trans  &kp RBKT   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp UNDERSCORE  &trans  &trans
-&trans  &trans           &trans       &trans    &kp MINUS             &kp GRAVE      &trans  &trans     &kp PLUS               &trans           &trans          &trans  &trans
+&trans  &trans           &trans       &trans    &trans                &trans         &trans  &trans     &trans                 &trans           &trans          &trans        &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR            &kp PERCENT    &trans  &kp CARET  &kp AMPERSAND          &kp ASTERISK     &kp LS(LPAR)    &kp LS(RPAR)  &trans
+&trans  &trans           &trans       &kp LBRC  &kp LEFT_PARENTHESIS  &kp LBKT       &trans  &kp RBKT   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp UNDERSCORE  &trans        &trans
+&trans  &trans           &trans       &trans    &kp MINUS             &kp GRAVE      &trans  &kp EQUAL  &kp PLUS               &trans           &trans          &trans        &trans
 &trans  &trans           &trans       &trans    &trans                &trans         &trans  &trans     &trans                 &trans           &trans          &trans
             >;
 
@@ -131,11 +131,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans     &trans         &trans        &trans         &trans        &trans
-&trans  &kp EXCLAMATION  &kp LBKT  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &kp EQUAL  &kp LS(CARET)  &kp LS(DQT)   &kp LS(STAR)   &kp LS(LPAR)  &trans
-&trans  &trans           &trans    &kp LS(RBRC)   &kp LS(STAR)  &kp RBKT         &trans  &kp BSLH   &kp LS(LPAR)   &kp LS(PIPE)  &kp LS(UNDER)  &trans        &trans
-&trans  &trans           &trans    &trans         &kp MINUS     &kp LS(GRAVE)    &trans  &trans     &kp LS(PLUS)   &trans        &trans         &trans        &trans
-&trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans     &trans         &trans        &trans         &trans
+&trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans        &trans         &trans        &trans          &trans        &trans
+&trans  &kp EXCLAMATION  &kp LBKT  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &kp EQUAL     &kp LS(CARET)  &kp LS(DQT)   &kp LS(STAR)    &kp LS(LPAR)  &trans
+&trans  &trans           &trans    &kp LS(RBRC)   &kp LS(STAR)  &kp RBKT         &trans  &kp BSLH      &kp LS(LPAR)   &kp LS(PIPE)  &kp UNDERSCORE  &trans        &trans
+&trans  &trans           &trans    &trans         &kp MINUS     &kp LS(LBRC)     &trans  &kp KP_EQUAL  &kp PLUS       &trans        &trans          &trans        &trans
+&trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans        &trans         &trans        &trans          &trans
             >;
 
             label = "[JP]SYM";
