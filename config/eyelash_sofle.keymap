@@ -134,7 +134,7 @@
 &trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans        &trans         &trans        &trans          &trans        &trans
 &trans  &kp EXCLAMATION  &kp LBKT  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &kp EQUAL     &kp LS(CARET)  &kp LS(DQT)   &kp LS(STAR)    &kp LS(LPAR)  &trans
 &trans  &trans           &trans    &kp LS(RBRC)   &kp LS(STAR)  &kp RBKT         &trans  &kp BSLH      &kp LS(LPAR)   &kp LS(PIPE)  &kp UNDERSCORE  &trans        &trans
-&trans  &trans           &trans    &trans         &kp MINUS     &kp LS(LBRC)     &trans  &kp KP_EQUAL  &kp PLUS       &trans        &trans          &trans        &trans
+&trans  &trans           &trans    &trans         &kp MINUS     &kp LBKT         &trans  &kp KP_EQUAL  &kp PLUS       &trans        &trans          &trans        &trans
 &trans  &trans           &trans    &trans         &trans        &trans           &trans  &trans        &trans         &trans        &trans          &trans
             >;
 
